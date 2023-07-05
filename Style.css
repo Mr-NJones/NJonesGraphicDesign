@@ -68,3 +68,65 @@
   margin-right: auto;
   width: 50%;
 	}
+	
+	[class*="col-"] {
+	float: left;
+  padding: 3px;
+}
+ 
+ /* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+  
+}
+@media only screen and (max-width: 400px) {
+a:link, a:visited {
+  padding-left:  25%;
+  padding-right: 25%;
+  
+}}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 100%;}
+  .col-s-2 {width: 50%;}
+  .col-s-3 {width: 100%;}
+  .col-s-4 {width: 100%;}
+  .col-s-5 {width: 100%;}
+  .col-s-6 {width: 100%;}
+  .col-s-7 {width: 100%;}
+  .col-s-8 {width: 32.5%;}
+  .col-s-9 {width: 37%;}
+  .col-s-10 {width: 100%;}
+  .col-s-11 {width: 100%;}
+  .col-s-12 {width: 100%;}
+  .col-s-13 {width: 49%;}
+  .col-s-14 {width: 49%;}
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 100%;}
+  .col-2 {width: 99%;}
+  .col-3 {width: 100%;}
+  .col-4 {width: 100%;}
+  .col-5 {width: 100%;}
+  .col-6 {width: 100%;}
+  .col-7 {width: 100%;}
+  .col-8 {width: 32.5%;}
+  .col-9 {width: 37%;}
+  .col-10 {width: 100%;}
+  .col-11 {width: 100%;}
+  .col-12 {width: 45%;}
+  .col-13 {width: 15%;}
+  .col-14 {width: 100%;}
+} 
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    
+	text-align: center;
+  }
+  
+}
